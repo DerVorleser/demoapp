@@ -1,0 +1,13 @@
+package com.example.nam.namdemoapp.ui;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import com.example.nam.namdemoapp.R;
+
+public class ActivitySelector extends AppCompatActivity {
+
+  @Override protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_selector);
+  }
+}
